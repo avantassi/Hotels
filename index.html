@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.theme.css">
+    <title>Test Hotels.ru</title>
+</head>
+<body>
+
+    <section class="tickets">
+        <div class="menu">
+            <div class="container">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Search tickets</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Sapsan</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Allegro</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link nav__link--sub">Trans-siberian</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link nav__link--sub">Faq</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link nav__link--sub">Tickets guide</a>
+                            <ul class="sub-menu">
+                                <li class="sub-menu__item"><a href="#" class="sub-menu__link">Group travel</a></li>
+                                <li class="sub-menu__item"><a href="#" class="sub-menu__link">Ticket types</a></li>
+                                <li class="sub-menu__item"><a href="#" class="sub-menu__link">Child policy</a></li>
+                                <li class="sub-menu__item"><a href="#" class="sub-menu__link">Change ticket request</a></li>
+                                <li class="sub-menu__item"><a href="#" class="sub-menu__link">Cancel tickets</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__item"><a href="#" class="nav__link nav__link--sub">Contact us</a></li>
+                    </ul>
+                    <div class="sign">
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="12px" height="15px">
+                            <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+                                  d="M6.140,6.918 C7.801,6.918 9.147,5.266 9.147,3.227 C9.147,1.189 7.801,-0.002 6.140,-0.002 C4.479,-0.002 3.133,1.189 3.133,3.227 C3.133,5.265 4.479,6.918 6.140,6.918 ZM11.979,12.134 C11.686,9.455 9.222,8.503 6.225,8.503 C6.196,8.503 6.168,8.504 6.140,8.505 C6.111,8.504 6.084,8.503 6.054,8.503 C3.057,8.503 0.593,9.455 0.301,12.134 C0.293,12.203 0.286,12.789 0.280,13.106 C1.894,14.341 3.854,15.001 6.139,15.001 C8.400,15.001 10.392,14.316 11.999,13.106 C11.994,12.789 11.986,12.203 11.979,12.134 Z"/>
+                        </svg>
+                        <button class="sign-btn">Sign in</button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="order">
+            <div class="container">
+                <h1 class="main-title">Russian train tickets</h1>
+                <div class="order__form">
+                    <form action="" class="order__form-tag" id="order-form">
+                        <div class="order__form-row">
+                            <label class="order__form-block">
+                                <div class="order__form-label">Departure city:</div>
+                                <input class="order__form-input" name="origin" type="text" placeholder="Type city name">
+                                <div class="form-hint"><span class="form-hint__text">Ex:
+                                    <a href="#" class="form-hint__link">St.Petersburg,</a>
+                                    <a href="#" class="form-hint__link">Moscow</a></span>
+                                </div>
+                            </label>
+                            <div class="swap"><svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="30px" height="16px">
+                                <path fill-rule="evenodd"  fill="rgb(148, 196, 219)"
+                                      d="M12.972,6.048 L26.478,6.048 L24.192,8.325 C23.805,8.713 23.805,9.350 24.192,9.738 C24.391,9.926 24.639,10.026 24.898,10.026 C25.156,10.026 25.405,9.926 25.603,9.738 L29.579,5.760 C29.966,5.372 29.966,4.735 29.579,4.347 L25.603,0.369 C25.216,-0.018 24.580,-0.018 24.192,0.369 C23.805,0.757 23.805,1.394 24.192,1.782 L26.478,4.059 L12.972,4.059 C12.426,4.059 11.979,4.507 11.979,5.054 C11.979,5.601 12.426,6.048 12.972,6.048 ZM4.316,15.705 C4.515,15.893 4.764,15.993 5.022,15.993 C5.280,15.993 5.529,15.893 5.728,15.705 C6.115,15.317 6.115,14.680 5.728,14.292 L3.442,12.015 L16.948,12.015 C17.494,12.015 17.941,11.567 17.941,11.020 C17.941,10.473 17.494,10.026 16.948,10.026 L3.442,10.026 L5.728,7.748 C6.115,7.361 6.115,6.725 5.728,6.336 C5.340,5.949 4.704,5.949 4.316,6.336 L0.341,10.315 C-0.046,10.702 -0.046,11.338 0.341,11.727 L4.316,15.705 Z"/>
+                            </svg></div>
+                            <label class="order__form-block">
+                                <div class="order__form-label">Arrival city:</div>
+                                <input class="order__form-input" name="destination" type="text" placeholder="Type city name">
+                                <div class="form-hint"><span class="form-hint__text">Ex:
+                                    <a href="#" class="form-hint__link">St.Petersburg,</a>
+                                    <a href="#" class="form-hint__link">Moscow</a></span>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="order__form-row order__form-row--bottom">
+                            <div class="date-row">
+                                <label class="order__form-block order__form-date">
+                                    <div class="order__form-label">Departure date:</div>
+                                    <input class="order__form-input" name="depart-date" type="text" onfocus="(this.type='date')"
+                                           id="date" placeholder="dd.mm.yyyy">
+                                </label>
+                                <label class="order__radio order__radio-checkbox">
+                                    <div class="triangle"></div>
+                                    <input class="order__radio-elem" name="callback" type="checkbox" id="checkbox">
+                                    <div class="order__radio-fake"></div>
+                                    <div class="order__radio-title">Roundtrip</div>
+                                </label>
+                                <label class="order__form-block order__form-date">
+                                    <div class="order__form-label">Return date:</div>
+                                    <input class="order__form-input order__form-input--disabled" disabled name="return-date" type="text" onfocus="(this.type='date')" id="input" placeholder="dd.mm.yyyy">
+                                </label>
+                            </div>
+                            <div class="search-row">
+                                <label class="order__form-block order__form-select">
+                                    <div class="order__form-label">Currency</div>
+                                    <div class="custom-select">
+                                        <select name="currency" id="" class="select">
+                                            <option value="0">USD</option>
+                                            <option value="1">RUB</option>
+                                            <option value="2">GBR</option>
+                                            <option value="3">EUR</option>
+                                            <option value="4">CHF</option>
+                                        </select>
+                                    <!--<input class="order__form-input" name="currency" type="text">-->
+                                    </div>
+                                </label>
+                                <div class="search"><input class="order-link" name="" type="submit" value="Search"></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous"></script>
+
+    <script src="js/jquery.formstyler.min.js"></script>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
+
